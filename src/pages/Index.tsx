@@ -127,7 +127,7 @@ const Index = () => {
 
       <footer className={`${effectiveTheme === 'dark' ? 'bg-black' : 'bg-white'} border-t p-4 shadow-md mt-auto`}>
         <div className="container mx-auto text-center text-foreground text-sm font-light">
-          &copy; {new Date().getFullYear()} | Made by <a href="https://thapahemraj.com.np/" style={{
+          &copy; {new Date().getFullYear()} | Made by <a href="https://thapahemraj.com.np/" target="_blank" style={{
             color: "Blue"
           }} >Hemraj Thapa</a>
         </div>
